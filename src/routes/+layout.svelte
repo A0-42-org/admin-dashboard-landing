@@ -1,7 +1,3 @@
-<script lang="ts">
-  import '../app.css';
-</script>
-
 <svelte:head>
   <meta charset="utf-8" />
   <link rel="icon" href="%sveltekit.assets%/favicon.png" />
