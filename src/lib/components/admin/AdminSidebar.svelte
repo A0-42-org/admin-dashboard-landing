@@ -26,7 +26,7 @@
     <ul class="space-y-2">
       {#each navItems as item}
         <li>
-          <a href={item.href} class:flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors {isActive(item.href) ? 'bg-primary-600 text-white' : 'hover:bg-surface-800'}>
+          <a href={item.href} class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors hover:bg-surface-800" class:bg-primary-600={isActive(item.href)} class:text-white={isActive(item.href)}>
             <span class="text-xl">{item.icon}</span>
             <span class="font-medium">{item.label}</span>
           </a>
